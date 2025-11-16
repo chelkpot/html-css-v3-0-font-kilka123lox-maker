@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* 2. Задайте курсивное и наклонное начертание */
+.italic-text {
+    font-style: italic;
+}
+
+.oblique-text {
+    font-style: oblique;
+}
+
+/* 3. Используйте вариант малых заглавных букв */
+.small-caps {
+    font-variant: small-caps;
+}
+
+/* 4. Сделайте текст жирным */
+.bold-text {
+    font-weight: bold;
+}
+
+/* 5. Настройте размер шрифта */
+.font-size-large {
+    font-size: 24px;
+}
+
+.font-size-small {
+    font-size: 14px;
+}
+
+/* 6. Реализуйте изменение внешнего вида текста при наведении */
+.hover-effect:hover {
+    color: red;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+/* 7. Добавьте подчёркивание текста */
+.underline {
+    text-decoration: underline;
+}
+
+/* 8. Для ссылки уберите подчёркивание */
+a {
+    text-decoration: none;
+}
+
+/* 9. Выровняйте текст по центру */
+.center-align {
+    text-align: center;
+}
+
+/* 10. Добавьте отступ первой строки в абзаце */
+.indent-paragraph {
+    text-indent: 30px;
+}
+
+/* 11. Используйте преобразование регистра */
+.capitalize {
+    text-transform: capitalize;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.lowercase {
+    text-transform: lowercase;
+}
